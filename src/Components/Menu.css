@@ -1,0 +1,68 @@
+.viewbtn1{
+
+    background: #fff;
+    color: #e91e8c;
+    border: 1px #e91e8c solid;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 10px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+} 
+
+.viewbtn1:hover{
+    background-color: #e91e8c;
+    color: white;
+      transform: scale(1.05)
+}
+
+.service-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 4px;
+    min-height: 60px;
+    line-height: 1.4;
+}
+
+
+.rs1{
+    font-size: 13px;
+    font-weight: 700 !important;
+    color:  #111;
+}
+
+/* .cardd{
+    
+    animation: fadeZoom 0.8s ease;
+}
+
+
+@keyframes fadeZoom {
+
+    from {
+        opacity:0;
+        transform:scale(0.8);
+    }
+
+    to {
+        opacity:1;
+        transform:scale(1);
+    }
+
+} */
+
+
+.cardd {
+    opacity: 0.9;
+    transform: scale(1);
+    transition: 0.4s ease;
+}
+
+
+.cardd:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}

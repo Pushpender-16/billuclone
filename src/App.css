@@ -1,0 +1,110 @@
+section{
+    padding: 36px;
+
+}
+
+
+.ia{
+
+    padding-top: 40px;
+    text-align: center;
+   
+}
+.ncr{
+   color: #e91e8c; 
+       font-size: 36px;
+    font-weight: 500;
+
+    margin-bottom: 4px;
+}
+.ncr2{
+   color: #e91e8c; 
+       font-size: 28px;
+    font-weight: 500;
+
+    margin-bottom: 4px;
+}
+
+.bo{
+ display: flex;
+  gap: 20px;
+
+}
+
+
+.po {
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.po:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+  border-radius: 8px;
+} 
+
+
+.block1{
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #00000024;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 11px 11px;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    font-size: small;
+    margin: 16px;
+}
+
+.block2{
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #00000024;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 11px 11px;
+    justify-content: space-between;
+ display: flex;
+    gap: 20px;
+    font-size: small;
+margin: 16px;
+}
+
+.block3{
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 6px #00000024;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 11px 11px;
+    justify-content: space-between;
+font-size: small;
+     display: flex;
+    gap: 20px;
+    margin: 16px;
+}
+
+.mobile{
+    padding: 10px;
+    width: 260px;
+   border-radius: 6px;
+border: 1px solid  #e91e8c;
+
+}
+
+.mobile:focus {
+  border-color: #f1138d; /* Click par bhi pink */
+  box-shadow: 0 0 6px #f1138d;
+  outline: none;
+}
+
+
+.container{
+    display: flex;
+    
+}
+
+.menu{
+display: flex;
+justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+}
